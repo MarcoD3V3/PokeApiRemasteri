@@ -1,0 +1,14 @@
+.content {
+  height: 100%;
+  display: grid;
+  padding: 25px 20px;
+  grid-template-columns: 3fr 9fr;
+  gap: 20px;
+  .contentMain {
+    padding: 10px;
+    background-color: #96420f;
+    border-radius: 10px;
+    height: calc(100% - 20px);
+    width: calc(100% - 20px);
+  }
+}
